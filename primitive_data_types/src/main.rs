@@ -13,8 +13,16 @@ fn main() {
     let arch_2: isize = 5;
 
     //* Characters
-    let char: char = 'a'; // character value must be in SINGLE QUOTES!!
+    let char = 'a'; // character value must be in SINGLE QUOTES!!
 
     //* Boolean
-    let b: bool = true;
+    let b = true;
+
+    //* Type Aliasing
+    type Age = u8;
+    let peter_age: Age = 42;
+
+    //* Type Conversion
+    let a:i32 = 10;
+    let b = a as f64;
 }
